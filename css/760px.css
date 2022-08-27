@@ -1,0 +1,109 @@
+@media screen and (max-width:760px) {
+
+/* Nav Bar  */
+
+
+.logo img {
+    margin-top: 40px;
+    margin-left: 40px;
+   height: 30px;
+}
+
+.nav-list {
+ 
+    margin: 40px;
+margin-right: 30px;
+    gap: 30px;
+}
+
+.nav-list li a {
+    display: none;
+    font-size: 20px;
+}
+
+.nav-list li button {
+    padding: 5px 10px;
+}
+/* Hero Section  */ 
+
+
+.hero-left h1 {
+    font-size: 20px;
+    margin-top: -60px;
+}
+
+.hero-left p {
+    font-size: 12px;
+}
+
+.hero-right img  {
+    width: 300px;
+    height: 200px;
+    margin-top: -40px;
+}
+/* Section-1  */ 
+
+
+.sec-1-left img {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.sec-1-right {
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.sec-1-right h1 {
+    font-size: 25px;
+    width: 300px;
+}
+
+.features {
+    gap: 5px;
+}
+
+
+.feature h4 {
+    font-size: 15px;
+}
+
+.feature div  {
+    gap: 5px;
+}
+
+.feature p {
+    width: 240px;
+}
+
+
+/* Section-2  */
+
+
+.section-2 h1 {
+    font-size: 20px;
+}
+
+.flex.cards {
+    display: flex;
+    flex-direction:  column;
+    gap: 20px;
+}
+
+
+.card-img{
+    width:100px;
+    padding: 20px 20px;
+
+}
+
+.card-content h4 {
+    font-size: 15px;
+}
+
+.card-content p  {
+    font-size: 12px;
+}
+
+}

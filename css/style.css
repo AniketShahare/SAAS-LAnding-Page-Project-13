@@ -1,0 +1,229 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Bar  */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(136, 84, 185);
+
+}
+
+.logo img{
+    margin-top: 40px;
+  margin-left: 80px;
+    filter: invert();
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav-list li a:hover {
+   color: #1abdef;
+   
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.btn.nav-btn {
+    background-color: #1abdef;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+}
+
+/* Hero Section  */ 
+
+.flex.hero  {
+    display: flex;
+   justify-content: space-around;
+   background-color: rgb(136, 84, 185);
+}
+
+.hero-left {
+    display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 70px;
+
+}
+
+
+.hero-left h1 {
+    color: #fff;
+   font-size: 50px;
+   
+}
+
+.hero-left p {
+    font-size: 25px;
+   margin-top: 20px;
+   color: #fff;
+}
+
+.hero-right img {
+    width: 700px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+/* Section-1  */ 
+
+.flex.section-1 {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.sec-1-left img {
+    width: 500px;
+    height: 500px;
+}
+
+.sec-1-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.sec-1-right h1 {
+    font-size: 50px;
+    width: 600px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  gap: 20px;
+}
+
+.feature {
+    display: flex;
+    gap: 10px;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+   background-color: rgb(255, 252, 252);
+   
+}
+
+.feature h4 {
+    font-size: 25px;
+}
+
+.feature div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature p {
+    width: 340px;
+}
+
+.green {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 252, 252);
+}
+
+.blue {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 252, 252);
+}
+
+
+/* Section-2  */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background-color: rgb(250, 244, 244);
+}
+
+.section-2 h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.flex.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+
+.card-img {
+    margin-top: 20px;
+    width: 100px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: rgb(237, 217, 217);
+   margin-bottom: 50px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  border-radius: 10px;
+
+}
+
+.card-content:hover {
+    color: #ffffff;
+    background-color: rgb(132, 73, 127);
+}
+
+.card-content h4 {
+    font-size: 20px;
+   font-family: sans-serif;
+}
+
+.card-content p {
+    font-size: 15px;
+  font-family: sans-serif;
+    width: 150px;
+    text-align: center;
+  
+  margin-bottom: 50px;
+}
